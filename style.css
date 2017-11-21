@@ -1,24 +1,231 @@
 body {
     margin: 0;
     padding: 0;
-}
-
-#content_wrapper {
-    margin: auto;
-    width: 70%;
+    background-color: #172C67;
+    width: 100%;
 }
 
 section {
-    background-color: blue;
-    padding-top: 70px;
+    background-color: #5F74AB;
     width: 100%;
     height: 600px;
+    padding-top: 70px;
+}
+
+/*------ SECTIONS ------*/
+
+/*---- SPLASH ----*/
+
+#splash {
+    background-image: url(img/splash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+
+}
+
+#splash h1 {
+    font-family: 'Futura';
+    color: #F7F0E7;
+    position: absolute;
+    font-size: 8vw;
+    border: 4px solid #F7F0E7;
+    padding: 20px;
+    top: 300px;
+    left: 120px;
+}
+
+/*---- IDEA ----*/
+
+#idea {
+    background-color: #172C67;
+}
+
+/*---- APP ----*/
+
+#app {
+    background-color: #405794;
+}
+
+/*---- PITCH ----*/
+
+#pitch {
+    background-color: #284083;
+}
+
+/*---- DESIGN ----*/
+
+#design {
+    background-color: #5F74AB;
+}
+
+/*---- LAYOUT ----*/
+
+#layout {
+    background-color: #405794;
+}
+
+/*---- SCRUM ----*/
+
+#scrum {
+    background-color: #405794;
+}
+
+/*---- WORK ----*/
+
+#work {
+    background-color: #284083;
+}
+
+/*---- CONTACT ----*/
+
+#contact {
+    background-color: #172C67;
+}
+
+#contact h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 60px;
+    font-family: 'Futura';
+    letter-spacing: 5px;
+    color: #F7F0E7;
+
+}
+
+#contact h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Futura';
+    letter-spacing: 2px;
+    color: #F7F0E7;
+}
+
+#contact li {
+    margin: 0;
+    font-size: 12px;
+    font-family: 'Futura';
+    letter-spacing: 1px;
+    color: #F7F0E7;
+}
+
+#contact .sectionwrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#contact .column_1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 0px 0px 0px;
+}
+
+#contact .column_2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px 0px 0px 0px;
+}
+
+#benjamin {
+    background-image: url("img/selfportraits/benjamin.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+
+    width: 200px;
+    height: 200px;
+    order: 1;
+}
+
+#benjamin:hover {
+    transform: scale(1.3);
+}
+
+#maide {
+    background-image: url("img/selfportraits/beatrice.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    order: 2;
+}
+
+#maide:hover {
+    transform: scale(1.3);
+}
+
+#mari {
+    background-image: url("img/selfportraits/anna.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    order: 3;
+}
+
+#contact .mari {
+    order: 3;
+}
+
+#mari:hover {
+    transform: scale(1.3);
+}
+
+#mini {
+    background-image: url("img/selfportraits/amanda.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    order: 4;
+}
+
+#contact .mini {
+    order: 4;
+}
+
+#mini:hover {
+    transform: scale(1.3);
+
+}
+
+#nanna {
+    background-image: url("img/selfportraits/amanda.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    order: 4;
+}
+
+#contact .nanna {
+    order: 4;
+}
+
+#nanna:hover {
+    transform: scale(1.3);
+
 }
 
 /*---------- NAVIGATIONS MENU --------*/
 
 #primary_nav_wrap {
-    background-color: #202533;
+    background-color: rgba(39, 55, 96, 0.93);
     position: fixed;
     width: 100%;
     text-align: center;
@@ -35,7 +242,7 @@ section {
 
 #primary_nav_wrap ul a {
     display: inline-block;
-    color: #F49131;
+    color: #91A1CD;
     margin: 1.2vw;
     text-decoration: none;
     font-family: 'Futura';
@@ -64,7 +271,9 @@ section {
     top: 100%;
     left: 0;
     margin: 0;
-    background-color: #202533;
+    margin-top: 6px;
+    background-color: rgba(39, 55, 96, 0.93);
+    ;
     padding: 0;
     text-align: left;
 
