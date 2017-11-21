@@ -89,6 +89,7 @@ section {
 
 #primary_nav_wrap ul li:hover > ul {
     color: #F7F0E7;
+    display: block;
 }
 
 /*--------- DROPDOWN MENU ----------*/
