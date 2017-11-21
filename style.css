@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#content_wrapper{
+    margin: auto;
+    width: 70%;
+}
+section {
+    background-color: blue;
+    padding-top: 70px;
+    width: 100%;
+    height: 600px;
+}
+/*---------- NAVIGATIONS MENU --------*/
+
+#primary_nav_wrap {
+    background-color: #202533;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+}
+
+#primary_nav_wrap ul {
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0
+}
+
+#primary_nav_wrap ul a {
+    display: inline-block;
+    color: #F49131;
+    margin: 1.2vw;
+    text-decoration: none;
+    font-family: 'Futura';
+    font-weight: bold;
+    font-size: 1vw;
+    letter-spacing: 0.2vw;
+    vertical-align: middle;
+}
+
+#primary_nav_wrap ul a:hover {
+    color: #F7F0E7;
+}
+
+
+
+#primary_nav_wrap ul li {
+    position: relative;
+    display: inline-block;
+    margin: 6px;
+
+}
+
+#primary_nav_wrap ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    background-color: #202533;
+    padding: 0;
+    text-align: left;
+
+
+}
+
+#primary_nav_wrap ul ul li {
+    display: inline-block;
+    width: 200px;
+
+}
+
+#primary_nav_wrap ul ul a {
+
+    padding: 0;
+}
+
+#primary_nav_wrap ul ul ul {
+    top: 0;
+    left: 100%
+}
+
+#primary_nav_wrap ul li:hover > ul {
+    display: block;
+    color: #F7F0E7;
+}
+/*--------- DROPDOWN MENU ----------*/
+
+/*---- DROP DOWN MENU ---*/
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #384159;
+    height: 55px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 4;
+}
+
+.container_drop {
+    margin: 0;
+    position: fixed;
+    padding: 8px 20px;
+    display: block;
+    cursor: pointer;
+    background-color: #384159;
+    min-width: 200px;
+}
+
+.container_drop a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #F7F0E7;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+
+/* Rotate first bar */
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+    background-color: #F49131;
+
+}
+
+
+/* Fade out the second bar */
+
+.change .bar2 {
+    opacity: 0;
+    background-color: #F49131;
+
+}
+
+
+/* Rotate last bar */
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+    background-color: #F49131;
+
+}
+
+.dropdown {
+    display: none;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    min-width: 160px;
+    width: 20px;
+    z-index: 1;
+    padding: 10px 40px 10px 10px;
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    color: #F7F0E7;
+    padding: 20px 0px 0px 5px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Futura';
+    letter-spacing: 3px;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    color: #F49131;
+}
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+
+.show {
+    display: block;
+}
+
+
+/*-------- Media Queries ---------- */
+
+@media all and (max-width: 828px) {
+    nav {
+        display: none;
+    }
+}
+
+@media all and (min-width: 828px) {
+    header {
+        display: none;
+    }
+}
