@@ -17,7 +17,7 @@ section {
 /*---- SPLASH ----*/
 
 #splash {
-    background-image: url(img/splash.png);
+    background-image: url(img/splash_all.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -25,21 +25,22 @@ section {
 
 }
 
-#splash h1 {
-    font-family: 'Futura';
-    color: #F7F0E7;
-    position: absolute;
-    font-size: 8vw;
-    border: 4px solid #F7F0E7;
-    padding: 20px;
-    top: 300px;
-    left: 120px;
-}
+
 
 /*---- IDEA ----*/
 
 #idea {
     background-color: #172C67;
+}
+
+#idea h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 4.5vw;
+    font-family: 'Futura';
+    letter-spacing: 5px;
+    color: #F7F0E7;
+    margin-bottom: 20px;
 }
 
 /*---- APP ----*/
@@ -48,50 +49,151 @@ section {
     background-color: #405794;
 }
 
+#app h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 4.5vw;
+    font-family: 'Futura';
+    letter-spacing: 5px;
+    color: #F7F0E7;
+    margin-bottom: 20px;
+}
+
 /*---- PITCH ----*/
 
 #pitch {
     background-color: #284083;
 }
 
-/*---- DESIGN ----*/
-
-#design {
-    background-color: #5F74AB;
+#pitch h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 4.5vw;
+    font-family: 'Futura';
+    letter-spacing: 5px;
+    color: #F7F0E7;
+    margin-bottom: 20px;
 }
 
-/*---- LAYOUT ----*/
+/*---- TEST ----*/
 
-#layout {
+#test {
     background-color: #405794;
+}
+
+#test h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 4.5vw;
+    font-family: 'Futura';
+    letter-spacing: 5px;
+    color: #F7F0E7;
+    margin-bottom: 20px;
 }
 
 /*---- SCRUM ----*/
 
 #scrum {
-    background-color: #405794;
+    background-color: #284083;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+#scrum .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+#scrum h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 4.5vw;
+    font-family: 'Futura';
+    letter-spacing: 5px;
+    color: #F7F0E7;
+    margin-bottom: 20px;
+}
+
+#scrum h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Futura';
+    letter-spacing: 2px;
+    color: #F7F0E7;
+}
+
+.scrum_video {
+    text-align: center;
+    margin: 5px;
 }
 
 /*---- WORK ----*/
 
 #work {
-    background-color: #284083;
+    background-color: #405794;
 }
+
+#work h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 4.5vw;
+    font-family: 'Futura';
+    letter-spacing: 5px;
+    color: #F7F0E7;
+    margin-bottom: 20px;
+
+}
+
+#work a {
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Futura';
+    letter-spacing: 5px;
+    color: #F49131;
+}
+
+#work a:hover {
+    color: #202533;
+}
+
+#fernis {
+    padding-left: 180px;
+}
+
+#work p {
+    font-family: 'Open Sans';
+    color: #202533;
+    margin: 30px;
+}
+
+#work .sectionwrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 
 /*---- CONTACT ----*/
 
 #contact {
     background-color: #172C67;
+    padding-bottom: 70px;
 }
 
 #contact h1 {
     text-align: center;
     margin: 0;
-    font-size: 60px;
+    font-size: 4.5vw;
     font-family: 'Futura';
     letter-spacing: 5px;
     color: #F7F0E7;
-
+    margin-bottom: 20px;
 }
 
 #contact h2 {
@@ -185,7 +287,7 @@ section {
 }
 
 #mini {
-    background-image: url("img/selfportraits/benjamin.jpg");
+    background-image: url("img/selfportraits/mini.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 30px;
@@ -225,7 +327,7 @@ section {
 /*---------- NAVIGATIONS MENU --------*/
 
 #primary_nav_wrap {
-    background-color: rgba(39, 55, 96, 0.93);
+    background-color: rgba(23, 44, 103, 0.93);
     position: fixed;
     width: 100%;
     text-align: center;
@@ -242,7 +344,7 @@ section {
 
 #primary_nav_wrap ul a {
     display: inline-block;
-    color: #91A1CD;
+    color: #F7F0E7;
     margin: 1.2vw;
     text-decoration: none;
     font-family: 'Futura';
@@ -253,7 +355,7 @@ section {
 }
 
 #primary_nav_wrap ul a:hover {
-    color: #F7F0E7;
+    color: #91A1CD;
 }
 
 
@@ -271,8 +373,8 @@ section {
     top: 100%;
     left: 0;
     margin: 0;
-    margin-top: 6px;
-    background-color: rgba(39, 55, 96, 0.93);
+    margin-top: 4.5px;
+    background-color: rgba(23, 44, 103, 0.93);
     ;
     padding: 0;
     text-align: left;
@@ -308,7 +410,7 @@ section {
 header {
     position: fixed;
     width: 100%;
-    background-color: #384159;
+    background-color: rgba(39, 55, 96, 1);
     height: 55px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 4;
@@ -320,7 +422,7 @@ header {
     padding: 8px 20px;
     display: block;
     cursor: pointer;
-    background-color: #384159;
+    background-color: rgba(39, 55, 96, 1);
     min-width: 200px;
 }
 
@@ -347,7 +449,7 @@ header {
 .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
-    background-color: #F49131;
+    background-color: #91A1CD;
 
 }
 
@@ -356,7 +458,7 @@ header {
 
 .change .bar2 {
     opacity: 0;
-    background-color: #F49131;
+    background-color: #91A1CD;
 
 }
 
@@ -366,7 +468,7 @@ header {
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
-    background-color: #F49131;
+    background-color: #91A1CD;
 
 }
 
@@ -400,7 +502,7 @@ header {
 /* Change color of dropdown links on hover */
 
 .dropdown-content a:hover {
-    color: #F49131;
+    color: #91A1CD;
 }
 
 
