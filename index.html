@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KEA APPS</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-
-
     </script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400, 700" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -23,8 +21,8 @@
         <div class="dropdown">
             <div id="myDropdown" class="dropdown-content">
                 <a href="#splash">HOME</a>
-                <a href="#idea">IDÉERNE</a>
                 <a href="#app">APP</a>
+                <a href="#idea">IDÉERNE</a>
                 <a href="#test">PROTOTYPE TESTS</a>
                 <a href="#scrum">DAILY SCRUM</a>
                 <a href="#work">ARBEJDSPROCES</a>
@@ -40,18 +38,19 @@
         <nav id="primary_nav_wrap">
             <ul>
                 <li><a href="">HOME</a></li>
+                <li><a href="#app">APP</a></li>
                 <li><a href="#idea">IDÉERNE</a>
                     <ul>
                         <li><a href="#idea">PIN POINTS</a></li>
                         <li><a href="#idea">PERSONA</a></li>
                     </ul>
                 </li>
-                <li><a href="#app">APP</a></li>
                 <li><a href="#test">PROTOTYPE TESTS</a>
                     <ul>
                         <li><a href="#test">IDÉ #1</a></li>
                         <li><a href="#test2">IDÉ #2</a></li>
                         <li><a href="#test3">IDÉ #3</a></li>
+                        <li><a href="#data">DATAKODNING</a></li>
                     </ul>
                 </li>
                 <li><a href="#scrum">DAILY SCRUM</a></li>
@@ -72,15 +71,47 @@
 
     <section id="splash"></section>
 
-    <section id="idea">
-        <h1>IDÉERNE BAG KEA APPS</h1>
 
-        <a href="documents/persona.pdf" target="_blank">PERSONA</a>
-    </section>
     <section id="app">
         <h1>KEA RENT - APP</h1>
-        <a href="" target="_blank">LINK TIL KEA RENT - SITE</a>
+        <a href="http://www.benjaminbonnichsen.dk/kea/04-ux/04_01_03_gruppe9_afleveringssite/" target="_blank">LINK TIL DEN ENDELIGE APP</a>
     </section>
+
+    <section id="idea">
+        <h1>IDÉERNE BAG KEA APPS</h1>
+        <h3>PIN POINTS</h3>
+        <div class="sectionwrapper">
+
+            <div class="pin_1">
+                <h2>KEA INFO</h2>
+                <ol>
+                    <li>Det er svært at finde information omkring lærerne såsom e-mail etc.</li>
+                    <li>Som studerende ved vi ikke hvilket udstyr, der er til rådighed medmindre vi går ned i administrationen, hvor det eneste de har er en oversigt med navnet på udstyret.</li>
+                    <li>Det kunne også gøres nemmere at finde information omkring administrationen, åbningstider osv.</li>
+                </ol>
+            </div>
+            <div class="pin_2">
+                <h2>KEA SCHEDULE</h2>
+
+                <ol>
+                    <li>Det er for besværligt at tjekke sit skema og info vedr. undervisningen, når du først skal ind på fronter. Derudover er fronter og den nuværende skema-løsning ikke mobile-friendly og du kan derfor ikke se alt.</li>
+                    <li>Det er svært at lægge mærke til skemaændringer, da du ikke får nogle notifikationer omkring ændringer i skemaet.</li>
+                    <li>Det er irriterende, at man skal scrolle sig frem til den pågældende uge i stedet for, at det kunne gøres ved 1-2 klik!</li>
+                </ol>
+            </div>
+            <div class="pin_3">
+                <h2>KEA RENT</h2>
+                <ol>
+                    <li>Det er frustrerende, at man ikke ved hvilket udstyr, der er til rådighed!</li>
+                    <li>Det er irriterende, at man skal udfylde så mange papir når man skal låne udstyr, og det er en tidskrævende proces!</li>
+                    <li>Nogle gange kan man glemme hvornår det skal afleveres da man ikke har nogen “aftale/kvittering” liggende, som fortæller en om det.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="link"><a href="documents/persona.pdf" target="_blank">PERSONA</a></div>
+    </section>
+
     <section id="test">
         <h1>PROTOTYPE TESTS</h1>
         <div id="test1">
@@ -106,10 +137,12 @@
                 <h2>PAPER PROTOTYPE 3</h2>
                 <p>Bemærkninger fra vores testperson: <br> Tidsrum: <br> 1:33 - “jeg kan rent faktisk reserver det på forhånd og ikke kun på dagen, det smart” <br> 2:29 - “Der regner jeg med at jeg kan se hvornår jeg kan hente udstyret og hvem jeg skal ringe til, hvis jeg har problemer med reserver eller andet” (kontakt del) <br> 3:25 - “Nogle af hovedmenuer kunne være ind under de enkelte”<br> 4:15 - “Jeg tror der er nogle af de her ting jeg ville springe over, og vælge ikke at gå ind på f.eks. regler, som kunne ind under når man bekræfter. <br><br> Konklusion til idé 3: testpersonen er forvirret over hvad det handler om, men er klar over at hun er logget ind på kea. Hun forstår udlejning processen/nemt forstår hvordan man reserver. Den studerende ønsker en lettere tilgang til udstyret og, at man efter udlejningen kan læse og efterfølgende acceptere reglerne, men er samtidig overrasket over man kan reserver forud. Dette kunne f.eks. gøres med en popup besked efter godkendt reservation/udlån. Yderligere, skal man have mulighed for at vælge, at sende kvitteringen på mail.</p>
             </div>
-            <div id="billedeaftest">
-            </div>
-        </div>
 
+        </div>
+        <div id="data">
+            <h2>DATAKODNING</h2>
+            <div id="billedeaftest"></div>
+        </div>
     </section>
     <section id="scrum">
         <h1>DAILY SCRUM - VLOG</h1>
@@ -134,14 +167,34 @@
                 <h2>DAILY SCRUM <br> d. 22.11.17</h2>
             </div>
         </div>
+        <div class="sectionwrapper">
+            <div class="scrum_video">
+
+                <video width="560" height="315" controls>
+  <source src="scrum/scrum_3.mp4" type="video/mp4">
+  <source src="scrum/scrum_3.mp4" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+                <h2>DAILY SCRUM <br> d. 23.11.17 </h2>
+            </div>
+            <div class="scrum_video">
+
+                <video width="560" height="315" controls>
+  <source src="scrum/scrum_4.mp4" type="video/mp4">
+  <source src="scrum/scrum_4.mp4" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+                <h2>DAILY SCRUM <br> d. 24.11.17</h2>
+            </div>
+        </div>
     </section>
     <section id="work">
+        <h1>ARBEJDSPROCES</h1>
         <div class="sectionwrapper">
-            <h1>ARBEJDSPROCES</h1>
+
             <div class="links">
                 <div class="link_1"><a href="" target="_blank">BURNDOWNCHART</a></div>
-                <div class="link_2"><a href="" target="_blank">TRELLO BOARD</a></div>
-                <div class="link_3"><a href="" target="_blank">TEST-DOKUMENTER</a></div>
+                <div class="link_2"><a href="https://trello.com/b/9ursJbst/scrum-board" target="_blank">TRELLO BOARD</a></div>
                 <div class="link_4"><a href="documents/storyboards.pdf" target="_blank">STORYBOARDS</a></div>
 
             </div>
