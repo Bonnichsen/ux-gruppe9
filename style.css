@@ -58,26 +58,10 @@ section {
     margin-bottom: 20px;
 }
 
-/*---- PITCH ----*/
-
-#pitch {
-    background-color: #284083;
-}
-
-#pitch h1 {
-    text-align: center;
-    margin: 0;
-    font-size: 4.5vw;
-    font-family: 'Futura';
-    letter-spacing: 5px;
-    color: #F7F0E7;
-    margin-bottom: 20px;
-}
-
 /*---- TEST ----*/
 
 #test {
-    background-color: #405794;
+    background-color: #91A1CD;
     height: 100%;
 }
 
@@ -109,9 +93,20 @@ section {
     margin-bottom: 20px;
 }
 
+#test h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    font-family: 'Futura';
+    letter-spacing: 2px;
+    color: #202533;
+    margin: 10px;
+}
+
 .video {
     flex-basis: 560px;
     flex-grow: 1;
+    margin: 0 0 0 20px;
 }
 
 .text {
@@ -120,7 +115,10 @@ section {
 }
 
 .text p {
-    font-size: 1.3em;
+    font-size: 1.2em;
+    font-family: 'Open Sans';
+    color: #F7F0E7;
+    margin: 0 20px;
 }
 
 #billedeaftest {
@@ -130,14 +128,15 @@ section {
     width: 1063px;
     height: 637px;
     margin: auto;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
 /*---- SCRUM ----*/
 
 #scrum {
-    background-color: #284083;
+    background-color: #405794;
     height: 100%;
     padding-bottom: 50px;
 }
@@ -176,7 +175,7 @@ section {
 /*---- WORK ----*/
 
 #work {
-    background-color: #405794;
+    background-color: #284083;
 }
 
 #work h1 {
@@ -298,7 +297,7 @@ section {
 }
 
 #maide {
-    background-image: url("");
+    background-image: url("img/selfportraits/maide.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 30px;
@@ -312,7 +311,7 @@ section {
 }
 
 #mari {
-    background-image: url("");
+    background-image: url("img/selfportraits/mari.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 30px;
@@ -416,7 +415,7 @@ section {
     top: 100%;
     left: 0;
     margin: 0;
-    margin-top: 4.5px;
+    margin-top: 3px;
     background-color: rgba(23, 44, 103, 0.93);
     ;
     padding: 0;
