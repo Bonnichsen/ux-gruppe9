@@ -22,7 +22,6 @@ section {
     background-size: cover;
     width: 100%;
     height: 700px;
-
 }
 
 
@@ -82,6 +81,24 @@ section {
     height: 100%;
 }
 
+#test1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+#test2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+#test3 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
 #test h1 {
     text-align: center;
     margin: 0;
@@ -90,6 +107,30 @@ section {
     letter-spacing: 5px;
     color: #F7F0E7;
     margin-bottom: 20px;
+}
+
+.video {
+    flex-basis: 560px;
+    flex-grow: 1;
+}
+
+.text {
+    flex-basis: 200px;
+    flex-grow: 10;
+}
+
+.text p {
+    font-size: 1.3em;
+}
+
+#billedeaftest {
+    background-image: url(img/billedeaftest.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1063px;
+    height: 637px;
+    margin: auto;
+    margin-bottom: 30px;
 }
 
 
