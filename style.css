@@ -24,28 +24,11 @@ section {
     height: 700px;
 }
 
-
-
-/*---- IDEA ----*/
-
-#idea {
-    background-color: #172C67;
-}
-
-#idea h1 {
-    text-align: center;
-    margin: 0;
-    font-size: 4.5vw;
-    font-family: 'Futura';
-    letter-spacing: 5px;
-    color: #F7F0E7;
-    margin-bottom: 20px;
-}
-
 /*---- APP ----*/
 
 #app {
-    background-color: #405794;
+    background-color: #172C67;
+    height: 700px;
 }
 
 #app h1 {
@@ -58,13 +41,34 @@ section {
     margin-bottom: 20px;
 }
 
-/*---- PITCH ----*/
-
-#pitch {
-    background-color: #284083;
+#app a {
+    text-align: center;
+    font-size: 2vw;
+    color: #91A1CD;
+    font-family: 'Futura';
+    letter-spacing: 5px;
+    width: 514px;
+    padding-top: 100px;
+    margin: auto;
+    display: inline-block;
+    display: flex;
 }
 
-#pitch h1 {
+/*---- IDEA ----*/
+
+#idea {
+    background-color: #284083;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#idea .sectionwrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#idea h1 {
     text-align: center;
     margin: 0;
     font-size: 4.5vw;
@@ -72,6 +76,59 @@ section {
     letter-spacing: 5px;
     color: #F7F0E7;
     margin-bottom: 20px;
+}
+
+#idea h2 {
+
+    display: inline-block;
+    color: #172C67;
+    display: flex;
+    justify-content: space-around;
+}
+
+#idea h3 {
+    font-size: 2vw;
+    color: #91A1CD;
+    text-align: center;
+}
+
+#idea li {
+    color: #F7F0E7;
+    line-height: 25px;
+    margin: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#idea a {
+    color: #91A1CD;
+    font-size: 2vw;
+}
+
+#idea .link {
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+#idea ol {
+    width: 80%;
+    margin-left: 30px;
+}
+
+#idea pin_1 {
+    width: 100%;
+    padding: 0 10px;
+}
+
+#idea pin_2 {
+    width: 100%;
+    padding: 0 10px;
+}
+
+#idea pin_3 {
+    width: 100%;
+    padding: 0 10px;
 }
 
 /*---- TEST ----*/
@@ -91,12 +148,14 @@ section {
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
+    padding-top: 70px;
 }
 
 #test3 {
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
+    padding-top: 70px;
 }
 
 #test h1 {
@@ -109,9 +168,18 @@ section {
     margin-bottom: 20px;
 }
 
+#test h2 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Futura';
+    letter-spacing: 2px;
+    color: #91A1CD;
+}
+
 .video {
     flex-basis: 560px;
     flex-grow: 1;
+    margin: 0 0 0 20px;
 }
 
 .text {
@@ -120,24 +188,31 @@ section {
 }
 
 .text p {
-    font-size: 1.3em;
+    font-size: 1.2em;
+    font-family: 'Open Sans';
+    color: #F7F0E7;
+    margin: 0 20px;
+}
+
+#data {
+    padding-top: 70px;
 }
 
 #billedeaftest {
     background-image: url(img/billedeaftest.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 1063px;
-    height: 637px;
+    height: 600px;
+    width: 68%;
     margin: auto;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
-
 
 /*---- SCRUM ----*/
 
 #scrum {
-    background-color: #284083;
+    background-color: #91A1CD;
     height: 100%;
     padding-bottom: 50px;
 }
@@ -147,6 +222,7 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    margin: 10px 0;
 }
 
 #scrum h1 {
@@ -161,7 +237,7 @@ section {
 
 #scrum h2 {
     text-align: center;
-    margin: 0;
+    margin: 20px 0 0 0;
     font-size: 20px;
     font-family: 'Futura';
     letter-spacing: 2px;
@@ -176,7 +252,7 @@ section {
 /*---- WORK ----*/
 
 #work {
-    background-color: #405794;
+    background-color: #284083;
 }
 
 #work h1 {
@@ -190,26 +266,30 @@ section {
 
 }
 
+#work .links {
+    display: inline-block;
+    display: flex;
+    margin: auto;
+    margin-top: 150px;
+}
+
+
 #work a {
     text-align: center;
-    margin: 0;
+    margin: 0 4vw;
     font-size: 20px;
+    color: #91A1CD;
     font-family: 'Futura';
     letter-spacing: 5px;
-    color: #F49131;
 }
 
 #work a:hover {
-    color: #202533;
-}
-
-#fernis {
-    padding-left: 180px;
+    color: #172C67;
 }
 
 #work p {
     font-family: 'Open Sans';
-    color: #202533;
+    color: #172C67;
     margin: 30px;
 }
 
@@ -298,7 +378,7 @@ section {
 }
 
 #maide {
-    background-image: url("");
+    background-image: url("img/selfportraits/maide.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 30px;
@@ -312,7 +392,7 @@ section {
 }
 
 #mari {
-    background-image: url("");
+    background-image: url("img/selfportraits/mari.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 30px;
@@ -349,7 +429,7 @@ section {
 }
 
 #nanna {
-    background-image: url("");
+    background-image: url("img/selfportraits/nanna.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 30px;
@@ -416,7 +496,7 @@ section {
     top: 100%;
     left: 0;
     margin: 0;
-    margin-top: 4.5px;
+    margin-top: 3px;
     background-color: rgba(23, 44, 103, 0.93);
     ;
     padding: 0;
