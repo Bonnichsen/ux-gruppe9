@@ -158,6 +158,13 @@ section {
     padding-top: 70px;
 }
 
+#test4 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    padding-top: 70px;
+}
+
 #test h1 {
     text-align: center;
     margin: 0;
@@ -170,6 +177,15 @@ section {
 
 #test h2 {
     text-align: center;
+    font-size: 25px;
+    font-family: 'Futura';
+    letter-spacing: 2px;
+    color: #91A1CD;
+}
+
+#test4 h2{
+    text-align: center;
+    width: 100%;
     font-size: 25px;
     font-family: 'Futura';
     letter-spacing: 2px;
