@@ -173,6 +173,7 @@ section {
 #test {
     background-color: #F6BAB3;
     height: 100%;
+    margin-bottom: 100px;
 }
 
 #test1 {
@@ -266,6 +267,7 @@ section {
 
 #design {
     background-color: #F3D4CE;
+    height: 100%;
 }
 
 #design h1 {
@@ -303,12 +305,18 @@ section {
     font-family: 'Open Sans';
     color: rgb(177, 137, 130);
     margin: 20px 30px;
-
+    text-align: center;
 }
 
-#design .column_2{
+#design img {
+    width: 100%;
+    border: solid #F7F0E7 2px;
+}
+
+#design .column_2 {
     margin: 20px 350px;
 }
+
 #design .sectionwrapper {
     height: 100%;
     width: 100%;
