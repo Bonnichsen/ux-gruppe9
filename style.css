@@ -302,9 +302,13 @@ section {
 #design p {
     font-family: 'Open Sans';
     color: rgb(177, 137, 130);
-    margin: 30px;
+    margin: 20px 30px;
+
 }
 
+#design .column_2{
+    margin: 20px 350px;
+}
 #design .sectionwrapper {
     height: 100%;
     width: 100%;
