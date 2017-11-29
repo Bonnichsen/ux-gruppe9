@@ -1,12 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #172C67;
+    background-color: #DFB4A9;
     width: 100%;
 }
 
 section {
-    background-color: #5F74AB;
+    background-color: #DFB4A9;
     width: 100%;
     height: 600px;
     padding-top: 70px;
@@ -26,8 +26,11 @@ section {
 
 /*---- APP ----*/
 
+/*---- IDEA ----*/
+
 #app {
-    background-color: #172C67;
+    background-color: #DFB4A9;
+    margin: 0;
     height: 700px;
 }
 
@@ -35,29 +38,63 @@ section {
     text-align: center;
     margin: 0;
     font-size: 4.5vw;
-    font-family: 'Futura';
+    font-family: 'Raleway';
     letter-spacing: 5px;
     color: #F7F0E7;
     margin-bottom: 20px;
 }
 
-#app a {
+#app h2 {
     text-align: center;
-    font-size: 2vw;
-    color: #91A1CD;
-    font-family: 'Futura';
-    letter-spacing: 5px;
-    width: 514px;
-    padding-top: 100px;
-    margin: auto;
-    display: inline-block;
-    display: flex;
+    margin: 0;
+    font-size: 25px;
+    font-family: 'Raleway';
+    letter-spacing: 2px;
+    color: rgb(177, 137, 130);
+    margin: 10px;
 }
+
+#app p {
+    font-family: 'Open Sans';
+    color: #F7F0E7;
+
+}
+
+#app a {
+    color: rgb(177, 137, 130);
+    font-size: 2vw;
+}
+
+#app .link {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+#app .sectionwrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#app .column_1 {
+    width: 46%;
+    padding: 20px;
+}
+
+#app .column_2 {
+    width: 46%;
+    padding: 20px;
+}
+
 
 /*---- IDEA ----*/
 
 #idea {
-    background-color: #284083;
+    background-color: #ECC2BB;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -81,14 +118,14 @@ section {
 #idea h2 {
 
     display: inline-block;
-    color: #172C67;
+    color: rgb(177, 137, 130);
     display: flex;
     justify-content: space-around;
 }
 
 #idea h3 {
     font-size: 2vw;
-    color: #91A1CD;
+    color: rgb(177, 137, 130);
     text-align: center;
 }
 
@@ -100,7 +137,7 @@ section {
 }
 
 #idea a {
-    color: #91A1CD;
+    color: rgb(177, 137, 130);
     font-size: 2vw;
 }
 
@@ -134,7 +171,7 @@ section {
 /*---- TEST ----*/
 
 #test {
-    background-color: #405794;
+    background-color: #F6BAB3;
     height: 100%;
 }
 
@@ -169,7 +206,7 @@ section {
     text-align: center;
     margin: 0;
     font-size: 4.5vw;
-    font-family: 'Futura';
+    font-family: 'Raleway';
     letter-spacing: 5px;
     color: #F7F0E7;
     margin-bottom: 20px;
@@ -178,18 +215,18 @@ section {
 #test h2 {
     text-align: center;
     font-size: 25px;
-    font-family: 'Futura';
+    font-family: 'Raleway';
     letter-spacing: 2px;
-    color: #91A1CD;
+    color: rgb(177, 137, 130);
 }
 
-#test4 h2{
+#test4 h2 {
     text-align: center;
     width: 100%;
     font-size: 25px;
-    font-family: 'Futura';
+    font-family: 'Raleway';
     letter-spacing: 2px;
-    color: #91A1CD;
+    color: rgb(177, 137, 130);
 }
 
 .video {
@@ -225,10 +262,63 @@ section {
     margin-bottom: 50px;
 }
 
+/*---- WORK ----*/
+
+#design {
+    background-color: #F3D4CE;
+}
+
+#design h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 4.5vw;
+    font-family: 'Raleway';
+    letter-spacing: 5px;
+    color: #F7F0E7;
+    margin-bottom: 20px;
+
+}
+
+#design .links {
+    display: inline-block;
+    display: flex;
+    margin: auto;
+    padding-bottom: 200px;
+}
+
+#design a {
+    text-align: center;
+    margin: 0 4vw;
+    font-size: 20px;
+    color: rgb(177, 137, 130);
+    font-family: 'Raleway';
+    letter-spacing: 5px;
+}
+
+#design a:hover {
+    color: rgb(177, 137, 130);
+}
+
+#design p {
+    font-family: 'Open Sans';
+    color: rgb(177, 137, 130);
+    margin: 30px;
+}
+
+#design .sectionwrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
 /*---- SCRUM ----*/
 
 #scrum {
-    background-color: #91A1CD;
+    background-color: #DFB4A9;
     height: 100%;
     padding-bottom: 50px;
 }
@@ -245,7 +335,7 @@ section {
     text-align: center;
     margin: 0;
     font-size: 4.5vw;
-    font-family: 'Futura';
+    font-family: 'Raleway';
     letter-spacing: 5px;
     color: #F7F0E7;
     margin-bottom: 20px;
@@ -255,7 +345,7 @@ section {
     text-align: center;
     margin: 20px 0 0 0;
     font-size: 20px;
-    font-family: 'Futura';
+    font-family: 'Raleway';
     letter-spacing: 2px;
     color: #F7F0E7;
 }
@@ -268,14 +358,14 @@ section {
 /*---- WORK ----*/
 
 #work {
-    background-color: #284083;
+    background-color: #F3D4CE;
 }
 
 #work h1 {
     text-align: center;
     margin: 0;
     font-size: 4.5vw;
-    font-family: 'Futura';
+    font-family: 'Raleway';
     letter-spacing: 5px;
     color: #F7F0E7;
     margin-bottom: 20px;
@@ -294,13 +384,13 @@ section {
     text-align: center;
     margin: 0 4vw;
     font-size: 20px;
-    color: #91A1CD;
-    font-family: 'Futura';
+    color: rgb(177, 137, 130);
+    font-family: 'Raleway';
     letter-spacing: 5px;
 }
 
 #work a:hover {
-    color: #172C67;
+    color: rgb(177, 137, 130);
 }
 
 #work p {
@@ -321,7 +411,7 @@ section {
 /*---- CONTACT ----*/
 
 #contact {
-    background-color: #172C67;
+    background-color: #ECC2BB;
     padding-bottom: 70px;
 }
 
@@ -329,7 +419,7 @@ section {
     text-align: center;
     margin: 0;
     font-size: 4.5vw;
-    font-family: 'Futura';
+    font-family: 'Raleway';
     letter-spacing: 5px;
     color: #F7F0E7;
     margin-bottom: 20px;
@@ -339,7 +429,7 @@ section {
     text-align: center;
     margin: 0;
     font-size: 20px;
-    font-family: 'Futura';
+    font-family: 'Raleway';
     letter-spacing: 2px;
     color: #F7F0E7;
 }
@@ -347,7 +437,7 @@ section {
 #contact li {
     margin: 0;
     font-size: 12px;
-    font-family: 'Futura';
+    font-family: 'Raleway';
     letter-spacing: 1px;
     color: #F7F0E7;
 }
@@ -383,7 +473,6 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 30px;
-
     width: 200px;
     height: 200px;
     order: 1;
@@ -466,7 +555,7 @@ section {
 /*---------- NAVIGATIONS MENU --------*/
 
 #primary_nav_wrap {
-    background-color: rgba(23, 44, 103, 0.93);
+    background-color: rgb(177, 137, 130);
     position: fixed;
     width: 100%;
     text-align: center;
@@ -486,7 +575,7 @@ section {
     color: #F7F0E7;
     margin: 1.2vw;
     text-decoration: none;
-    font-family: 'Futura';
+    font-family: 'Raleway';
     font-weight: bold;
     font-size: 1vw;
     letter-spacing: 0.2vw;
@@ -494,10 +583,8 @@ section {
 }
 
 #primary_nav_wrap ul a:hover {
-    color: #91A1CD;
+    color: #ECC2BB;
 }
-
-
 
 #primary_nav_wrap ul li {
     position: relative;
@@ -512,13 +599,10 @@ section {
     top: 100%;
     left: 0;
     margin: 0;
-    margin-top: 3px;
-    background-color: rgba(23, 44, 103, 0.93);
-    ;
+    margin-top: 1px;
+    background-color: rgb(177, 137, 130);
     padding: 0;
     text-align: left;
-
-
 }
 
 #primary_nav_wrap ul ul li {
@@ -549,7 +633,7 @@ section {
 header {
     position: fixed;
     width: 100%;
-    background-color: rgba(39, 55, 96, 1);
+    background-color: rgb(177, 137, 130);
     height: 55px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 4;
@@ -561,8 +645,8 @@ header {
     padding: 8px 20px;
     display: block;
     cursor: pointer;
-    background-color: rgba(39, 55, 96, 1);
-    min-width: 200px;
+    background-color: rgb(177, 137, 130);
+    min-width: 280px;
 }
 
 .container_drop a {
@@ -582,39 +666,34 @@ header {
     transition: 0.4s;
 }
 
-
 /* Rotate first bar */
 
 .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
-    background-color: #91A1CD;
+    background-color: #ECC2BB;
 
 }
-
 
 /* Fade out the second bar */
 
 .change .bar2 {
     opacity: 0;
-    background-color: #91A1CD;
+    background-color: #ECC2BB;
 
 }
-
 
 /* Rotate last bar */
 
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
-    background-color: #91A1CD;
-
+    background-color: #ECC2BB;
 }
 
 .dropdown {
     display: none;
 }
-
 
 /* Dropdown Content (Hidden by Default) */
 
@@ -633,7 +712,7 @@ header {
     padding: 20px 0px 0px 5px;
     text-decoration: none;
     display: block;
-    font-family: 'Futura';
+    font-family: 'Raleway';
     letter-spacing: 3px;
 }
 
@@ -641,7 +720,7 @@ header {
 /* Change color of dropdown links on hover */
 
 .dropdown-content a:hover {
-    color: #91A1CD;
+    color: #ECC2BB;
 }
 
 
