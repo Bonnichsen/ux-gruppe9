@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KEA APPS</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+
+
     </script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400, 700" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -255,7 +257,17 @@
     </section>
 
 
-    <script src="java.js"></script>
+    <script src="java.js">
+        $(window).ready(function() {
+            setTimeout(function() {
+                $(".container_drop").click(function() {
+                    $(".container_drop").toggleClass("change");
+                    $(".dropdown").slideToggle();
+                });
+            });
+        });
+
+    </script>
 </body>
 
 </html>
